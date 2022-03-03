@@ -1,10 +1,10 @@
 def isometric_strings(x,y):
    # print()
-  #  res = set(zip(x, y))
-  #  print(res)
-    #print()
-  #  resu = set(x)
-  #  print(resu)
+   # res = set(zip(x, y))
+    #print(res)
+   # print()
+   # resu = set(x)
+    #print(resu)
     return len(set(zip(x, y))) == len(set(x))
 
 print(isometric_strings("add", "egg"))
